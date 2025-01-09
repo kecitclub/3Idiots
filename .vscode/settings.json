@@ -1,3 +1,15 @@
 {
-  "cSpell.words": ["dotenv", "jsonify", "supabase"]
+  "cSpell.words": [
+    "datetimepicker",
+    "dotenv",
+    "gorhom",
+    "jsonify",
+    "mapbox",
+    "maplibre",
+    "mmkv",
+    "skia",
+    "skottie",
+    "supabase",
+    "unistyles"
+  ]
 }
