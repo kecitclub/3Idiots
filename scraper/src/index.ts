@@ -25,7 +25,7 @@ export type CrawlerResponse = {
 };
 
 async function mainScraper() {
-  const urls: string[] = ['https://guileless-rugelach-03982e.netlify.app/'];
+  const urls: string[] = ['https://pictures-galleryy.netlify.app/'];
 
   const START_URLS: CrawleeRequest[] = [];
   for (const url of urls) {
@@ -279,7 +279,8 @@ async function mainScraper() {
           email.includes('contact') ||
           email.includes('mailto') ||
           email.includes('info') ||
-          email.includes(domainName)
+          email.includes(domainName) ||
+          email.includes('aman')
         ) {
           return email;
         }

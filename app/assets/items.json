@@ -1,0 +1,188 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "name": "Emotional Well-being and Mental Health: A Guide for Counsellors and Psychotherapists",
+      "type": "Book",
+      "image_url": "https://uk.sagepub.com/sites/default/files/upm-assets/styles/sage_thumbnail_width_150px/dotfeed/61980_book_item_61980.jpg",
+      "price": 120,
+      "full_price": 300,
+      "inStock": true,
+      "discount": 60
+    },
+    {
+      "id": 2,
+      "name": "Emotional First Aid - A guide to help you cope with stress and anxiety",
+      "type": "Book",
+      "image_url": "https://media.thuprai.com/front_covers/emotional-first-aid-gsorjb4t.jpg",
+      "price": 130,
+      "full_price": 250,
+      "inStock": true,
+      "discount": 48
+    },
+    {
+      "id": 3,
+      "name": "The Courage to Be Disliked: How to Free Yourself, Change your Life and Achieve Real Happiness",
+      "type": "Book",
+      "image_url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1545421684i/43306206.jpg",
+      "price": 150,
+      "full_price": 230,
+      "inStock": true,
+      "discount": 34.78
+    },
+    {
+      "id": 4,
+      "name": "How to Stop Worrying and Start Living: Time-Tested Methods for Conquering Worry",
+      "type": "Book",
+      "image_url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1442129098i/4866.jpg",
+      "price": 160,
+      "full_price": 280,
+      "inStock": true,
+      "discount": 42.86
+    },
+    {
+      "id": 5,
+      "name": "Can't Hurt Me: Master Your Mind and Defy the Odds",
+      "type": "Book",
+      "image_url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1536184191i/41721428.jpg",
+      "price": 130,
+      "full_price": 200,
+      "inStock": true,
+      "discount": 35
+    },
+    {
+      "id": 6,
+      "name": "The Happiness Project - A Year of Well-Being",
+      "type": "Book",
+      "image_url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1256849491i/6398634.jpg",
+      "price": 120,
+      "full_price": 180,
+      "inStock": true,
+      "discount": 33.33
+    }
+  ],
+  "candles": [
+    {
+      "id": 7,
+      "name": "Dailo Votive Natural Scented Candle Of Love In 60gm",
+      "type": "Candle",
+      "image_url": "https://www.osmology.co/cdn/shop/articles/Shinrin_Yoku_Scented_Candle_by_Earl_of_East_080.jpg",
+      "price": 50,
+      "full_price": 90,
+      "inStock": false,
+      "discount": 44.44
+    },
+    {
+      "id": 8,
+      "name": "Natural scented Candle (Vanilla)",
+      "type": "Candle",
+      "image_url": "https://blissy.com/cdn/shop/articles/luxury_scented_candle.jpg?v=1718315886",
+      "price": 30,
+      "full_price": 40,
+      "inStock": true,
+      "discount": 25
+    },
+    {
+      "id": 9,
+      "name": "Large bubble candle",
+      "type": "Candle",
+      "image_url": "https://img.lazcdn.com/g/ff/kf/S181dcce9db8941b8a92390cfcf076873q.jpg_720x720q80.jpg",
+      "price": 40,
+      "full_price": 50,
+      "inStock": true,
+      "discount": 20
+    },
+    {
+      "id": 10,
+      "name": "Dailo Natural Scented Jar Candle To Study With Aromatherapy",
+      "type": "Candle",
+      "image_url": "https://images-cdn.ubuy.co.in/633fec5b0b38155a585fd99d-fight-eagle-scented-candle-exquisite.jpg",
+      "price": 30,
+      "full_price": 45,
+      "inStock": false,
+      "discount": 33.33
+    },
+    {
+      "id": 11,
+      "name": "2 pcs Flameless Smokeless Plastic LED Candle Tealight Diya Battery Operated",
+      "type": "Candle",
+      "image_url": "https://www.cotebougie.com/blog/wp-content/uploads/2023/01/bougie-3-meches.jpg",
+      "price": 15,
+      "full_price": 60,
+      "inStock": true,
+      "discount": 75
+    },
+    {
+      "id": 12,
+      "name": "Festivel Tea Light Candle 50 pcs (multicolor)",
+      "type": "Candle",
+      "image_url": "https://c.ndtvimg.com/2022-11/f0h4foog_candles_120x90_14_November_22.jpg",
+      "price": 30,
+      "full_price": 60,
+      "inStock": false,
+      "discount": 50
+    }
+  ],
+  "plants": [
+    {
+      "id": 13,
+      "name": "Bamboo Palm Indoor Plant | For Home Décor | Decorative Plant",
+      "type": "Plant",
+      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTYnkWYjYX6752JHyfEuEEkleNlynkVB3WXw&s",
+      "price": 30,
+      "full_price": 60,
+      "inStock": true,
+      "discount": 50
+    },
+    {
+      "id": 14,
+      "name": "Curry Leaf Poly Outdoor Plant, Green Plant",
+      "type": "Plant",
+      "image_url": "https://hips.hearstapps.com/hmg-prod/images/best-low-light-indoor-plants-parlor-palm-667ae21d832f4.jpg?crop=0.600xw:1.00xh;0.400xw,0&resize=980:*",
+      "price": 20,
+      "full_price": 60,
+      "inStock": true,
+      "discount": 66.67
+    },
+    {
+      "id": 15,
+      "name": "Dracaena White Indoor Plant | For Home Décor | Decorative Plant",
+      "type": "Plant",
+      "image_url": "https://www.marthastewart.com/thmb/Gt3EKxaUS8T1WzoSVAmd4UGSFTo=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/low-light-houseplants-snake-plant-hero-getty-1123-bb1e9fd1b2024e879a45c3e6bbd9fcfe.jpg",
+      "price": 25,
+      "full_price": 60,
+      "inStock": false,
+      "discount": 58.33
+    },
+    {
+      "id": 16,
+      "name": "Aglaonema Pink Beauty Indoor Plant | For Home Décor | Decorative Plant",
+      "type": "Plant",
+      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgGiub6R6J_QVFKJCLc3XC_xD9TMUOfqsq8g&s",
+      "price": 18,
+      "full_price": 60,
+      "inStock": true,
+      "discount": 70
+    },
+    {
+      "id": 17,
+      "name": "Green Money Plant Indoor Plant | For Home Décor | Decorative Plant",
+      "type": "Plant",
+      "image_url": "https://assets.iamthegardener.com/storage/products/thumbnail/668fb9683088f.png",
+      "price": 38,
+      "full_price": 60,
+      "inStock": true,
+      "discount": 36.67
+    },
+    {
+      "id": 18,
+      "name": "Ficus Benjamina Indoor Plant, Home Decor, Decorative Plant, Green Plant",
+      "type": "Plant",
+      "image_url": "https://hips.hearstapps.com/hmg-prod/images/pilea-peperomioides-in-clay-pot-known-as-chinese-royalty-free-image-1727983633.jpg?crop=0.447xw:1.00xh;0.303xw,0&resize=980:*",
+      "price": 46,
+      "full_price": 60,
+      "inStock": true,
+      "discount": 23.33
+    }
+  ]
+}

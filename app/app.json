@@ -10,7 +10,7 @@
     "splash": {
       "image": "./assets/images/splash.png",
       "resizeMode": "cover",
-      "backgroundColor": "#418dff"
+      "backgroundColor": "#ec4343"
     },
     "ios": {
       "supportsTablet": true,
@@ -19,12 +19,12 @@
         "NSMicrophoneUsageDescription": "$(PRODUCT_NAME) needs access to your Microphone.",
         "NSLocationWhenInUseUsageDescription": "Allow $(PRODUCT_NAME) to access your location"
       },
-      "bundleIdentifier": "com.amanchand.surakshya"
+      "bundleIdentifier": "com.amanchand.nirbhaya"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
-        "backgroundColor": "#418dff"
+        "backgroundColor": "#ec4343"
       },
       "permissions": [
         "android.permission.ACCESS_COARSE_LOCATION",
@@ -46,7 +46,7 @@
         "android.permission.USE_FINGERPRINT",
         "android.permission.ACCESS_MEDIA_LOCATION"
       ],
-      "package": "com.amanchand.surakshya"
+      "package": "com.amanchand.nirbhaya"
     },
     "web": {
       "bundler": "metro",

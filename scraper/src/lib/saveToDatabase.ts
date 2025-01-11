@@ -1,6 +1,7 @@
 import { CrawlerResponse } from '@/index';
 import supabase from '@/lib/supabase';
 import { downloadImage } from '@/lib/utils';
+import { faker } from '@faker-js/faker';
 
 async function saveToDatabase(data: CrawlerResponse) {
   console.log('[DATABASE] Starting save to database:', data.url);
@@ -14,13 +15,15 @@ async function saveToDatabase(data: CrawlerResponse) {
 
     const { hash, src } = result;
 
+    const random = faker.internet;
+
     const filtered_data = {
       url: data.url,
-      title: data.title,
-      author: data.author,
-      website_name: data.website_name,
-      domain: data.domain,
-      emails: data.emails,
+      title: faker.lorem.words({ min: 2, max: 4 }),
+      author: faker.person.fullName(),
+      website_name: random.displayName(),
+      domain: random.domainName(),
+      emails: ['amanchand012@gmail.com'],
       image_hash: hash,
       image_url: src
     };
@@ -35,7 +38,7 @@ async function saveToDatabase(data: CrawlerResponse) {
       return;
     }
 
-    console.log('SAVED:', dbData);
+    console.log(dbData);
   });
 }
 

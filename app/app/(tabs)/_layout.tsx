@@ -1,16 +1,16 @@
 import React from 'react';
 import { Tabs } from 'expo-router';
-import { StyleSheet } from 'react-native';
 import { useStyles } from 'react-native-unistyles';
-import { BlurView } from 'expo-blur';
 import AidFill from '@/assets/icons/AidFill.svg';
 import AidOutline from '@/assets/icons/AidOutline.svg';
 import CompassFill from '@/assets/icons/CompassFill.svg';
 import CompassOutline from '@/assets/icons/CompassOutline.svg';
-import WarningFill from '@/assets/icons/WarningFill.svg';
-import WarningOutline from '@/assets/icons/WarningOutline.svg';
 import VideoFill from '@/assets/icons/VideoFill.svg';
 import VideoOutline from '@/assets/icons/VideoOutline.svg';
+import StarFill from '@/assets/icons/StarFill.svg';
+import StarOutline from '@/assets/icons/StarOutline.svg';
+import PeaceFill from '@/assets/icons/PeaceFill.svg';
+import PeaceOutline from '@/assets/icons/PeaceOutline.svg';
 
 export default function TabLayout() {
   const { theme } = useStyles();
@@ -18,40 +18,14 @@ export default function TabLayout() {
   return (
     <Tabs
       screenOptions={{
+        tabBarStyle: {
+          backgroundColor: theme.colors.background,
+          height: 68,
+          elevation: 0,
+          paddingTop: 14
+        },
         tabBarActiveTintColor: theme.colors.activeTintColor,
         tabBarInactiveTintColor: theme.colors.inActiveTintColor,
-        headerBackground: () => (
-          <BlurView
-            experimentalBlurMethod="dimezisBlurView"
-            intensity={10}
-            style={{
-              ...StyleSheet.absoluteFillObject,
-              overflow: 'hidden',
-              backgroundColor: theme.colors.background
-            }}
-          />
-        ),
-        tabBarStyle: {
-          position: 'absolute',
-          borderRadius: theme.borderRadius.rounded,
-          borderTopWidth: 0,
-          height: 69,
-          width: '90%',
-          bottom: 20,
-          left: '5%',
-          right: '4%'
-        },
-        tabBarBackground: () => (
-          <BlurView
-            experimentalBlurMethod="dimezisBlurView"
-            intensity={10}
-            style={{
-              ...StyleSheet.absoluteFillObject,
-              overflow: 'hidden',
-              borderRadius: theme.borderRadius.rounded
-            }}
-          />
-        ),
         tabBarShowLabel: false,
         headerTitleStyle: {
           fontFamily: 'HeadingFont',
@@ -59,9 +33,9 @@ export default function TabLayout() {
           fontSize: theme.fontSize.xxl
         },
         headerStyle: {
-          backgroundColor: theme.colors.background
-        },
-        headerStatusBarHeight: 28
+          backgroundColor: '#222',
+          height: 85
+        }
       }}
     >
       <Tabs.Screen
@@ -95,19 +69,6 @@ export default function TabLayout() {
       />
 
       <Tabs.Screen
-        name="report"
-        options={{
-          title: 'Report',
-          tabBarIcon: ({ color, focused }) =>
-            focused ? (
-              <WarningFill fill={color} width={36} height={36} />
-            ) : (
-              <WarningOutline fill={color} width={36} height={36} />
-            )
-        }}
-      />
-
-      <Tabs.Screen
         name="videos"
         options={{
           title: 'Evidences',
@@ -116,6 +77,32 @@ export default function TabLayout() {
               <VideoFill fill={color} width={36} height={36} />
             ) : (
               <VideoOutline fill={color} width={36} height={36} />
+            )
+        }}
+      />
+
+      <Tabs.Screen
+        name="check"
+        options={{
+          title: 'Image Detection',
+          tabBarIcon: ({ color, focused }) =>
+            focused ? (
+              <StarFill fill={color} width={36} height={36} />
+            ) : (
+              <StarOutline fill={color} width={36} height={36} />
+            )
+        }}
+      />
+
+      <Tabs.Screen
+        name="wellness"
+        options={{
+          title: 'Wellness',
+          tabBarIcon: ({ color, focused }) =>
+            focused ? (
+              <PeaceFill fill={color} width={36} height={36} />
+            ) : (
+              <PeaceOutline fill={color} width={36} height={36} />
             )
         }}
       />
